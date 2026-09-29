@@ -1,0 +1,9 @@
+# Kilo / agent state and worktrees (never part of the site)
+.kilo/
+
+# Local personal documents (CV, LinkedIn export, etc.)
+*.pdf
+
+# OS cruft
+.DS_Store
+Thumbs.db

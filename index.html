@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>María Navarro — Bioinformatician &amp; Data Scientist, Spain</title>
+<meta name="description" content="María Navarro Paredes — Data Scientist and Bioinformatician in Spain. MSc Bioinformatics &amp; Biostatistics, BSc Biotechnology. Python, R, SQL, machine learning and genomic pipelines.">
+<meta name="author" content="María Navarro Paredes">
+<link rel="canonical" href="https://manaves.github.io/portfolio/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="María Navarro — Bioinformatician &amp; Data Scientist">
+<meta property="og:description" content="Bioinformatician and Data Scientist in Spain, bridging the gap between code and biology.">
+<meta property="og:url" content="https://manaves.github.io/portfolio/">
+<meta property="og:image" content="https://manaves.github.io/portfolio/assets/img/maria.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/site.css?v=4">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "María Navarro Paredes",
+  "alternateName": "María Navarro",
+  "jobTitle": "Bioinformatician & Data Scientist",
+  "url": "https://manaves.github.io/portfolio/",
+  "image": "https://manaves.github.io/portfolio/assets/img/maria.jpg",
+  "address": { "@type": "PostalAddress", "addressLocality": "Spain", "addressCountry": "ES" },
+  "email": "mailto:navarroparedesmaria@gmail.com",
+  "sameAs": [
+    "https://github.com/manaves",
+    "https://www.linkedin.com/in/maria-navarro-paredes/"
+  ],
+  "alumniOf": ["Universitat Oberta de Catalunya", "University of Barcelona", "Universidad Miguel Hernández de Elche"],
+  "knowsAbout": ["Bioinformatics", "Biostatistics", "Biotechnology", "Data Science", "Python", "R", "SQL", "Machine Learning"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="shell">
+    <a class="brand" href="index.html">
+      María Navarro <span class="brand-dot" aria-hidden="true">/</span>
+      <span class="brand-meta">Bioinformatics · Spain</span>
+    </a>
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ------------------------------------------------------- who I am -->
+  <section class="hero-simple shell">
+    <div class="hero-inner">
+      <div class="hero-photo">
+        <figure class="portrait reveal">
+          <img src="assets/img/maria.jpg" alt="María Navarro" width="640" height="640">
+        </figure>
+        <div class="cta-row hero-social">
+          <a class="btn btn--linkedin" href="https://www.linkedin.com/in/maria-navarro-paredes/" target="_blank" rel="me noopener">LinkedIn</a>
+          <a class="btn btn--github" href="https://github.com/manaves" target="_blank" rel="me noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div>
+        <h1>María Navarro</h1>
+        <p class="hero-role">Bioinformatician · Data Scientist · Spain</p>
+        <p class="hero-bio">
+          I'm a bioinformatician and data scientist who likes bridging the gap between code and
+          biology. My background spans industry machine learning at Santander Group and academic
+          research in genomic pipelines.
+        </p>
+        <p class="hero-bio">
+          I enjoy building tools that make data accessible — like <strong>TomaSearch</strong>, a full-stack web app I
+          wrote to host my bachelor's thesis data, or <strong>BioData</strong>, a Streamlit viewer that turns protein binding
+          measurements into an interactive 3D structure.
+        </p>
+        <p class="hero-bio">
+          Right now I'm looking for the next big step: a doctoral position in bioinformatics.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------------------------------------------- projects -->
+  <section class="section shell" id="projects">
+    <div class="section-head">
+      <h2 class="eyebrow">Projects</h2>
+    </div>
+
+    <div class="carousel" data-carousel>
+      <div class="carousel-track" id="projects-track" tabindex="0" role="group" aria-label="Projects, horizontally scrollable">
+
+        <article class="card">
+          <h3><a href="https://github.com/manaves/BioData-QC" target="_blank" rel="noopener">BioData Quality Control and 3D Viewer</a></h3>
+          <div class="video-facade" data-yt="TMHYZopYMJQ" data-yt-title="BioData QC and 3D Viewer — demo">
+            <img src="assets/img/projects/BioData.png" alt="Preview of the BioData QC demo video" width="1919" height="940" loading="lazy">
+            <button class="video-play" type="button" aria-label="Play the BioData QC demo video"></button>
+          </div>
+          <p>BioData is a <strong>Streamlit</strong> application designed for processing thermodynamic protein binding measurements (such as the SKEMPI 2.0 benchmark) featuring automated quality control pipelines and advanced 3D macromolecular visualizations. The platform provides full control over column mappings and QC thresholds to filter data in real-time, accompanied by searchable tables and dynamic diagnostic summary plots. Additionally, it includes an interactive 3D structural viewer that allows researchers to inspect mutation properties, highlight neighboring residues, and export comprehensive HTML executive summary reports.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Protein analysis</span></div>
+          <p class="card-foot"><span class="card-date">Aug 2026 – Sep 2026</span><a href="https://github.com/manaves/BioData-QC" target="_blank" rel="noopener">Repo &rarr;</a></p>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/manaves/tomasearch" target="_blank" rel="noopener">TomaSearch</a></h3>
+          <div class="video-facade" data-yt="sicuC1XOn84" data-yt-title="TomaSearch — demo">
+            <img src="assets/img/projects/TomaSearch.png" alt="Preview of the TomaSearch demo video" width="1896" height="904" loading="lazy">
+            <button class="video-play" type="button" aria-label="Play the TomaSearch demo video"></button>
+          </div>
+          <p>TomaSearch is a <strong>Django</strong> and <strong>PostgreSQL</strong> web application developed for my <strong>bachelor's thesis</strong> to streamline the exploration and analysis of complex tomato gene-expression data. The platform enables researchers to efficiently query databases using specific gene IDs, GO terms, and subontologies, with the flexibility to export filtered datasets directly to CSV. Beyond querying, TomaSearch features an interactive graph visualization tool that dynamically maps gene-term relationships. Users can customize visual parameters and inspect detailed functional annotations by interacting directly with individual network nodes.</p>
+          <div class="tags"><span class="tag">Django</span><span class="tag">PostgreSQL</span><span class="tag">Supabase</span><span class="tag">GO ontologies</span></div>
+          <p class="card-foot"><span class="card-date">May 2025 – Sep 2025</span><a href="https://github.com/manaves/tomasearch" target="_blank" rel="noopener">Repo &rarr;</a></p>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/ErillLab/CAG-MD" target="_blank" rel="noopener">Comparative Genomics-Assisted Motif Discovery</a></h3>
+          <div class="gallery" data-gallery tabindex="0" role="group" aria-label="Master's thesis pictures">
+            <div class="gallery-viewport">
+              <figure class="gallery-slide is-active">
+                <img src="assets/img/projects/TFM.png" alt="A figure from my master's thesis on comparative genomics-assisted motif discovery" width="907" height="283" loading="lazy">
+              </figure>
+              <figure class="gallery-slide">
+                <img src="assets/img/projects/TFM2.png" alt="A second figure from my master's thesis on comparative genomics-assisted motif discovery" width="907" height="283" loading="lazy">
+              </figure>
+            </div>
+            <button class="gallery-btn gallery-prev" type="button" aria-label="Previous image">&lt;</button>
+            <button class="gallery-btn gallery-next" type="button" aria-label="Next image">&gt;</button>
+          </div>
+          <p><strong>Master's thesis</strong>. I designed and implemented an end-to-end bioinformatics pipeline to identify regulatory binding motifs in bacterial DNA across diverse taxa, combining comparative genomics with pipeline automation (Python, BLAST, MEME Suite). The pipeline was validated against known genomic benchmarks and succeeded in identifying a potential binding motif not previously documented in <em>Ignavibacteria</em>, which partially coincides with its homologue in <em>Xanthomonas campestris</em> for the LexA repressor.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Biopython</span><span class="tag">BLAST</span><span class="tag">MEME</span></div>
+          <p class="card-foot"><span class="card-date">Feb 2024 – Jun 2024 · Grade 9.1/10</span><a href="https://github.com/ErillLab/CAG-MD" target="_blank" rel="noopener">Repo &rarr;</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Automated Lipidomics Data Pipeline &amp; Visual Analytics Tool</h3>
+          <div class="gallery-viewport">
+            <figure class="gallery-slide is-active">
+              <img src="assets/img/projects/Lipidomics.png" alt="The Automated Lipidomics data pipeline: an interactive dashboard for multi-class lipid data" width="640" height="480" loading="lazy">
+            </figure>
+          </div>
+          <p>I designed and built an automated Python pipeline for processing high-throughput lipidomics data generated by LipidXplorer. It standardises raw mass spectrometry outputs, separates biological samples from internal standards, applies Pearson/Spearman correlation thresholds for automated quality filtering, and calculates absolute lipid concentrations. Plotly and Dash produce standalone, interactive HTML dashboards for multi-class data exploration.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Plotly</span><span class="tag">Dash</span><span class="tag">Lipidomics</span></div>
+          <p class="card-foot"><span class="card-date">Feb 2024 – Jul 2024 · IRBLLEIDA</span></p>
+        </article>
+
+        <article class="card">
+          <h3>Gene Co-expression Network Analysis in Tomato</h3>
+          <div class="gallery" data-gallery tabindex="0" role="group" aria-label="Bachelor's thesis pictures">
+            <div class="gallery-viewport">
+              <figure class="gallery-slide is-active">
+                <img src="assets/img/projects/TFG.jpg" alt="María presenting her bachelor's thesis on gene co-expression in tomato" width="1600" height="900" loading="lazy">
+              </figure>
+              <figure class="gallery-slide">
+                <img src="assets/img/projects/TFG2.png" alt="A figure from my bachelor's thesis on gene co-expression in tomato" width="511" height="415" loading="lazy">
+              </figure>
+            </div>
+            <button class="gallery-btn gallery-prev" type="button" aria-label="Previous image">&lt;</button>
+            <button class="gallery-btn gallery-next" type="button" aria-label="Next image">&gt;</button>
+          </div>
+          <p><strong>Bachelor's thesis</strong>. I investigated the relationship between gene co-expression networks and functional Gene Ontology (GO) classifications to predict gene functionality and cellular location. Using transcriptomics and network analysis (Pearson's correlation, GO annotation; Python), I analysed large-scale expression data from 310 tomato accessions to build a comprehensive co-expression network, demonstrating that co-expressed gene subgroups map to closely related functional families.</p>
+          <div class="tags"><span class="tag">RNA-seq</span><span class="tag">GO ontology</span><span class="tag">Python</span></div>
+          <p class="card-foot"><span class="card-date">Feb 2023 – Jun 2023 · Grade 10/10</span></p>
+        </article>
+
+      </div>
+
+      <div class="carousel-nav">
+        <button class="btn" id="carousel-prev" type="button" aria-label="Previous project">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+          Prev
+        </button>
+        <button class="btn" id="carousel-next" type="button" aria-label="Next project">
+          Next
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------ experience -->
+  <section class="section shell" id="experience">
+    <div class="section-head">
+      <h2 class="eyebrow">Experience</h2>
+    </div>
+
+    <div class="timeline">
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">Quental Technologies</span>
+          <span class="job-dates">Mar 2024 – Jan 2025</span>
+          <span class="job-place">Remote, ES</span>
+        </div>
+        <div>
+          <h4>Data Scientist</h4>
+          <p>Worked across two primary entities within Grupo Santander (Banco Santander (Spain) and Santander Consumer Finance (UK)) focusing on deep learning model development and regulatory risk compliance.</p>
+          <ul>
+            <li>Deep Learning and Forecasting: Engineered two deep learning models (<strong>Transformer</strong> and <strong>LSTM</strong>) in <strong>TensorFlow</strong> to forecast key financial metrics and time-series data.</li>
+            <li>Model Maintenance: Maintained, monitored, and optimized machine learning models built in <strong>R</strong> to ensure ongoing reliability and accuracy for time-series forecasting.</li>
+            <li>Risk Modeling and Compliance: Developed a <strong>Loss Given Default (LGD)</strong> model under the Internal Ratings-Based (IRB) approach, strictly aligning with PRA and ECB regulatory frameworks.</li>
+            <li>Technical execution: Programmed variable analyses (RDS), executed the TTW process, implemented decision tree segmentation, and calculated margins of conservatism (MoC) for final model deployment (<strong>SAS</strong>, <strong>SQL</strong>).</li>
+          </ul>
+          <p></p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">R</span><span class="tag">SAS</span><span class="tag">SQL</span><span class="tag">Docker</span><span class="tag">Git</span><span class="tag">GitLab</span></div>
+        </div>
+      </article>
+
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">IRBLLEIDA</span>
+          <span class="job-dates">Feb 2024 – Jul 2024</span>
+          <span class="job-place">Remote, ES</span>
+        </div>
+        <div>
+          <h4>Junior Scientist</h4>
+          <p>Developed automated data pipelines and analytical software to support biomedical research.</p>
+          <ul>
+            <li>Designed and built a custom <strong>Python</strong> application to process and analyze complex statistical data from LipidXplorer.</li>
+            <li>Automated the generation of comprehensive CSV data summaries and statistical analyses for end-users.</li>
+            <li>Programmed interactive HTML data visualizations categorized by species using a custom-built correlation filtering system.</li>
+          </ul>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Conda</span><span class="tag">WSL</span></div>
+        </div>
+      </article>
+
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">Institute of Bioengineering, UMH</span>
+          <span class="job-dates">Jul 2022 – Oct 2022</span>
+          <span class="job-place">Elche, ES</span>
+        </div>
+        <div>
+          <h4>Research Assistant</h4>
+          <p>Conducted bioinformatics research focused on algorithm implementation and genomic data analysis.</p>
+          <ul>
+            <li>Implemented sequence-alignment and preprocessing algorithms (<strong>Smith-Waterman</strong>, <strong>fastp</strong>) in <strong>Python</strong> for sequence analysis.</li>
+            <li>Identified homologous meiosis-related genes across 13 plant species, with sequence retrieval, result analysis and phylogenetic tree construction.</li>
+            <li>Performed routine molecular biology techniques, including DNA extraction.</li>
+            <li>Completed my bachelor's thesis on gene co-expression networks in tomato using Python and R.</li>
+          </ul>
+          <div class="tags"><span class="tag">Python</span><span class="tag">R</span><span class="tag">RNA-seq</span><span class="tag">Bash</span><span class="tag">fasterq-dump</span><span class="tag">fastp</span><span class="tag">HISAT2</span><span class="tag">SAMtools</span><span class="tag">StringTie</span><span class="tag">Tablet</span><span class="tag">Cluster 3.0</span><span class="tag">Gene Ontology</span><span class="tag">DNA extraction</span></div>
+        </div>
+      </article>
+
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">IDiBE – UMH</span>
+          <span class="job-dates">Jul 2021</span>
+          <span class="job-place">Elche, ES</span>
+        </div>
+        <div>
+          <h4>Research Assistant</h4>
+          <p>Applied molecular modeling techniques to viral research targets.</p>
+          <ul>
+            <li>Performed targeted molecular docking simulations of Zika virus nonstructural proteins at allosteric sites.</li>
+            <li>Utilized specialized bioinformatics software, including <strong>AutoDock</strong>, <strong>Yasara</strong>, <strong>Dock6</strong>, <strong>Xscore</strong>, and <strong>DSXscore</strong>, to evaluate binding energies.</li>
+            <li>Visualized and analyzed macromolecular structures using <strong>PyMOL</strong>, <strong>VMD</strong> and <strong>SwissPDB</strong>.</li>
+          </ul>
+          <div class="tags"><span class="tag">PyMOL</span><span class="tag">VMD</span><span class="tag">SwissPDB</span><span class="tag">AutoDock</span><span class="tag">YASARA</span><span class="tag">Dock6</span><span class="tag">Xscore</span><span class="tag">DSXscore</span></div>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <!-- -------------------------------------------------------- education -->
+  <section class="section shell" id="education">
+    <div class="section-head">
+      <h2 class="eyebrow">Education</h2>
+    </div>
+
+    <div class="timeline">
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">Open University of Catalonia · University of Barcelona</span>
+          <span class="job-dates">2023 – 2024</span>
+          <span class="job-place">Spain</span>
+        </div>
+        <div>
+          <h4>Master, Bioinformatics and Biostatistics</h4>
+          <ul>
+            <li>Honours in <strong>Omic Data Analysis</strong> and <strong>Programming for Bioinformatics</strong>.</li>
+            <li>Overall grade: <strong>9.25</strong>.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">Universidad Miguel Hernández de Elche</span>
+          <span class="job-dates">2019 – 2023</span>
+          <span class="job-place">Spain</span>
+        </div>
+        <div>
+          <h4>Bachelor, Biotechnology</h4>
+          <ul>
+            <li>Honours in <strong>Economics and Politics of Biotechnology</strong>, <strong>Legal and Social Aspects of Biotechnology</strong>, <strong>Plant Physiology</strong> and <strong>Biochemistry</strong>.</li>
+            <li>Overall grade: <strong>7.85</strong>.</li>
+            <li>Elected <strong>Class Delegate</strong> for three consecutive years and <strong>Faculty Delegate</strong> in my final year, representing students to faculty and on university boards.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ---------------------------------------------------- competitions -->
+  <section class="section shell" id="competitions">
+    <div class="section-head">
+      <h2 class="eyebrow">Competitions &amp; honours</h2>
+    </div>
+
+    <div class="comp-list">
+      <article class="comp-row reveal">
+        <div>
+          <p class="comp-date">Sep – Dec 2023<span> · Kaggle competition</span></p>
+          <h3>Stanford Ribonanza RNA Folding · silver medal</h3>
+          <p>Predicting RNA secondary structure from sequence and chemical-mapping data, 15th of 755 teams. Learned: Transformer models, sequence feature engineering, and holding a position on a leaderboard.</p>
+        </div>
+        <figure class="comp-media">
+          <img src="assets/img/ribonanza-medal.png" alt="Kaggle certificate of achievement: 15th of 755 teams, competition silver medallist." width="1600" height="987" loading="lazy">
+        </figure>
+      </article>
+      <article class="comp-row reveal">
+        <div>
+          <p class="comp-date">2023</p>
+          <h3>INNOBIOTEC · first prize</h3>
+          <p>My partner and I designed <strong>Horchátil</strong>, a tiger-nut horchata with an Elche date (the Confitera variety) and oats. Taking first prize was a joy: a functional food that also brought two food cultures together — Valencia and Elche.</p>
+        </div>
+        <figure class="comp-media">
+          <div class="gallery gallery--cert" data-gallery tabindex="0" role="group" aria-label="Innobiotec pictures">
+            <div class="gallery-viewport">
+              <figure class="gallery-slide is-active">
+                <img src="assets/img/competitions/innobiotec.jpg" alt="The Horchátil team at the Innobiotec competition" width="1600" height="1197" loading="lazy">
+              </figure>
+              <figure class="gallery-slide">
+                <img src="assets/img/competitions/innobiotec2.jpg" alt="Presenting Horchátil at the Innobiotec competition" width="1200" height="1600" loading="lazy">
+              </figure>
+            </div>
+            <button class="gallery-btn gallery-prev" type="button" aria-label="Previous image">&lt;</button>
+            <button class="gallery-btn gallery-next" type="button" aria-label="Next image">&gt;</button>
+          </div>
+        </figure>
+      </article>
+      <article class="comp-row comp-row--strip reveal">
+        <div>
+          <p class="comp-date">2018<span> · Robotics</span></p>
+          <h3>Desafío Robot · FREE MARS and FREE SUMO</h3>
+          <p>First and second prize in the FREE MARS category, and first and second prize in the FREE SUMO category. Learned: arduino, sensor calibration, control loops, and debugging hardware with the clock running.</p>
+        </div>
+        <figure class="comp-media">
+          <div class="media-strip">
+            <figure class="media-item">
+              <img src="assets/img/competitions/DR2018.jpg" alt="Desafío Robot 2018: the competition day" width="1600" height="1200" loading="lazy">
+            </figure>
+            <figure class="media-item">
+              <img src="assets/img/competitions/DR2018-2.jpg" alt="Desafío Robot 2018: another moment from the competition" width="1600" height="1200" loading="lazy">
+            </figure>
+            <figure class="media-item">
+              <video controls preload="metadata" playsinline aria-label="Desafío Robot 2018: a run through the circuit.">
+                <source src="assets/video/desafio-robot-2018.webm" type="video/webm">
+                <source src="assets/video/desafio-robot-2018.mp4" type="video/mp4">
+                Your browser cannot play this video. <a href="assets/video/desafio-robot-2018.mp4">Download it</a>.
+              </video>
+            </figure>
+            <figure class="media-item">
+              <video controls preload="metadata" playsinline aria-label="Desafío Robot 2018: a second, shorter run.">
+                <source src="assets/video/desafio-robot-2018-2.webm" type="video/webm">
+                <source src="assets/video/desafio-robot-2018-2.mp4" type="video/mp4">
+                Your browser cannot play this video. <a href="assets/video/desafio-robot-2018-2.mp4">Download it</a>.
+              </video>
+            </figure>
+          </div>
+        </figure>
+      </article>
+      <article class="comp-row reveal">
+        <div>
+          <p class="comp-date">Honours<span> · Academic</span></p>
+          <h3>High school honours · honourable mention</h3>
+          <p>Graduated with high school honours and an honourable mention for academic performance.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- -------------------------------------------------------- toolkit -->
+  <section class="section shell" id="toolkit">
+    <div class="section-head">
+      <h2 class="eyebrow">Toolkit</h2>
+    </div>
+    <div class="skill-rows">
+      <div class="skill-row reveal">
+        <h4>Languages</h4>
+        <div class="tags"><span class="tag">Python</span><span class="tag">R</span><span class="tag">SQL</span><span class="tag">SAS</span><span class="tag">Julia</span><span class="tag">Bash</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <h4>Frameworks</h4>
+        <div class="tags"><span class="tag">TensorFlow</span><span class="tag">Django</span><span class="tag">Streamlit</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <h4>Python libraries</h4>
+        <div class="tags"><span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">PyTorch</span><span class="tag">Matplotlib</span><span class="tag">Plotly</span><span class="tag">Dash</span><span class="tag">NetworkX</span><span class="tag">Biopython</span><span class="tag">Goatools</span><span class="tag">Obonet</span><span class="tag">Cerberus</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <h4>R libraries</h4>
+        <div class="tags"><span class="tag">Bioconductor</span><span class="tag">Tidyverse</span><span class="tag">ggplot2</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <h4>Bioinformatics tools</h4>
+        <div class="tags"><span class="tag">fasterq-dump</span><span class="tag">fastp</span><span class="tag">HISAT2</span><span class="tag">SAMtools</span><span class="tag">StringTie</span><span class="tag">Galaxy</span><span class="tag">BLAST</span><span class="tag">MEME</span><span class="tag">FastQC</span><span class="tag">Nextflow</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <h4>Molecular modelling</h4>
+        <div class="tags"><span class="tag">PyMOL</span><span class="tag">VMD</span><span class="tag">SwissPDB</span><span class="tag">AutoDock</span><span class="tag">YASARA</span><span class="tag">Dock6</span><span class="tag">Xscore</span><span class="tag">DSXscore</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <h4>Developer tools</h4>
+        <div class="tags"><span class="tag">Git</span><span class="tag">Docker</span><span class="tag">Conda</span><span class="tag">Venv</span><span class="tag">WSL</span><span class="tag">Supabase</span></div>
+      </div>
+      <div class="skill-row reveal">
+        <h4>Spoken languages</h4>
+        <div class="tags"><span class="tag">Spanish · native</span><span class="tag">Valencian · professional</span><span class="tag">English · full professional</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------------------------------------- certifications -->
+  <section class="section shell" id="certifications">
+    <div class="section-head">
+      <h2 class="eyebrow">Certifications</h2>
+    </div>
+    <div class="prose">
+      <ul>
+        <li>Cambridge English: Advanced (CAE)</li>
+        <li>Machine Learning and Big Data for Bioinformatics</li>
+        <li>Power BI Fundamentals</li>
+        <li>Introduction to Python</li>
+        <li>Introduction to Artificial Intelligence</li>
+        <li>Artificial Intelligence with Python — Universidad Miguel Hernández de Elche</li>
+        <li>Learn SQL — Codecademy</li>
+        <li>Data Analysis with Python — freeCodeCamp</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------- publications -->
+  <section class="section shell" id="publications">
+    <div class="section-head">
+      <h2 class="eyebrow">Publications</h2>
+    </div>
+    <div class="prose">
+      <ul>
+        <li><strong>Developing novel tools for the genomic characterisation of crop plants</strong> — poster presented at the 16th St. Albert the Great Conference, Faculty of Experimental Sciences, Miguel Hernández University (UMH), Elche, 13 Nov 2024. It presented new tools for the genomic characterisation of crop plants, including my bachelor's thesis.</li>
+        <li><strong>MicroMundo's educational project: an innovative programme designed to tackle the antibiotics crisis</strong> — video-poster presented at the 13th St. Albert the Great Conference, Faculty of Experimental Sciences, Miguel Hernández University (UMH), 10 Nov 2021, on the teaching and research project carried out during the implementation of the MicroMundo Project.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------- volunteering -->
+  <section class="section shell" id="volunteering">
+    <div class="section-head">
+      <h2 class="eyebrow">Volunteering</h2>
+    </div>
+
+    <div class="timeline">
+      <article class="job job--media reveal">
+        <div class="job-meta">
+          <span class="job-company">Miguel Hernández University</span>
+          <span class="job-dates">Sep 2021 – Sep 2023</span>
+          <span class="job-place">Elche, ES</span>
+        </div>
+        <div>
+          <h4>Science Communicator</h4>
+          <ul>
+            <li>Participated in multiple science outreach events, including the Mediterranean Researchers' Night.</li>
+            <li>Led workshops on microbiology and genetics for university and high school students.</li>
+            <li>Organised sessions on antibiotic resistance in congresses and public exhibitions.</li>
+          </ul>
+        </div>
+        <figure class="job-media">
+          <div class="gallery gallery--media" data-gallery tabindex="0" role="group" aria-label="Science communication pictures">
+            <div class="gallery-viewport">
+              <figure class="gallery-slide is-active">
+                <img src="assets/img/mednight.jpg" alt="Me at the Mediterranean Researchers' Night" width="1600" height="900" loading="lazy">
+              </figure>
+              <figure class="gallery-slide">
+                <img src="assets/img/micromundo2.jpg" alt="Me during a science outreach activity" width="1600" height="898" loading="lazy">
+              </figure>
+            </div>
+            <button class="gallery-btn gallery-prev" type="button" aria-label="Previous image">&lt;</button>
+            <button class="gallery-btn gallery-next" type="button" aria-label="Next image">&gt;</button>
+          </div>
+        </figure>
+      </article>
+
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">Biotechnofarm · FEBiotec</span>
+          <span class="job-dates">Mar 2022 – May 2023</span>
+          <span class="job-place">Alicante, ES</span>
+        </div>
+        <div>
+          <h4>Coordinator and Speaker</h4>
+          <ul>
+            <li>Coordinated and managed biotechnology workshops and talks in high schools across Alicante.</li>
+            <li>Delivered hands-on activities and outreach sessions to promote scientific vocations among students.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job reveal">
+        <div class="job-meta">
+          <span class="job-company">ABiVa · BAC Congress XV</span>
+          <span class="job-dates">Jan 2022 – Jul 2022</span>
+          <span class="job-place">Remote, ES</span>
+        </div>
+        <div>
+          <h4>Social Media Consultant</h4>
+          <ul>
+            <li>Managed communication and social media content for the national biotech congress.</li>
+            <li>Created and scheduled posts for online promotion and engagement.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job job--media reveal">
+        <div class="job-meta">
+          <span class="job-company">MicroMundo Project</span>
+          <span class="job-dates">Sep 2021 – Dec 2021</span>
+          <span class="job-place">Elche, ES</span>
+        </div>
+        <div>
+          <h4>Monitor · Small World Initiative</h4>
+          <ul>
+            <li>Conducted microbiology outreach sessions in high schools focused on antimicrobial resistance.</li>
+            <li>Performed lab experiments: soil sampling, culturing and microorganism screening.</li>
+            <li>Presented two video-posters at St. Albert the Great Conference (2021).</li>
+          </ul>
+        </div>
+        <figure class="job-media">
+          <div class="gallery gallery--media" data-gallery tabindex="0" role="group" aria-label="MicroMundo pictures">
+            <div class="gallery-viewport">
+              <figure class="gallery-slide is-active">
+                <img src="assets/img/micromundo.jpg" alt="Me as a MicroMundo monitor in a school" width="1600" height="1197" loading="lazy">
+              </figure>
+              <figure class="gallery-slide">
+                <img src="assets/img/micromundo3.jpg" alt="One of the plaques I made" width="1197" height="1600" loading="lazy">
+              </figure>
+            </div>
+            <button class="gallery-btn gallery-prev" type="button" aria-label="Previous image">&lt;</button>
+            <button class="gallery-btn gallery-next" type="button" aria-label="Next image">&gt;</button>
+          </div>
+        </figure>
+      </article>
+    </div>
+  </section>
+
+  <!-- ---------------------------------------------------------- contact -->
+  <section class="contact shell" id="contact">
+    <h2 class="eyebrow">Contact</h2>
+    <div class="cta-row">
+      <a class="btn btn--linkedin" href="https://www.linkedin.com/in/maria-navarro-paredes/" target="_blank" rel="me noopener">LinkedIn</a>
+      <a class="btn btn--github" href="https://github.com/manaves" target="_blank" rel="me noopener">GitHub</a>
+      <a class="btn" href="mailto:navarroparedesmaria@gmail.com">Email</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <span>María Navarro Paredes · Spain</span>
+    <span>© <span data-year>2026</span></span>
+  </div>
+</footer>
+
+
+<button class="to-top" type="button" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
