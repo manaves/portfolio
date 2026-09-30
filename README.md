@@ -1,6 +1,6 @@
 # manaves.github.io/portfolio
 
-The personal site of **María Navarro Paredes** — Bioinformatician and Data Scientist, Spain.
+The personal site of **María Navarro Paredes** — Bioinformatician and Data Scientist.
 Static pages, no build step, no framework, no CDN dependency: what is in this repository is what
 is served.
 
